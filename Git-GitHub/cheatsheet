@@ -1,0 +1,29 @@
+Lista de algunos de los comandos más utilizados en Git:
+
+1. `git init`: Crea un nuevo repositorio Git en un directorio vacío o reinicializa un repositorio existente.
+
+2. `git clone <url>`: Clona un repositorio remoto existente en tu directorio local.
+
+3. `git add <archivo>`: Agrega un archivo al área de preparación para ser incluido en el próximo commit.
+
+4. `git commit -m "mensaje"`: Crea un nuevo commit con los archivos del área de preparación y un mensaje descriptivo.
+
+5. `git status`: Muestra el estado actual del repositorio, incluyendo los archivos modificados, agregados y eliminados.
+
+6. `git branch`: Muestra una lista de las ramas en el repositorio. La rama actual se muestra resaltada.
+
+7. `git checkout <rama>`: Cambia a la rama especificada.
+
+8. `git merge <rama>`: Fusiona los cambios de la rama especificada en la rama actual.
+
+9. `git pull`: Obtiene los últimos cambios del repositorio remoto y los fusiona con la rama actual.
+
+10. `git push <repositorio> <rama>`: Sube los commits locales al repositorio remoto y los aplica a la rama especificada.
+
+11. `git remote -v`: Muestra las URL del repositorio remoto configurado.
+
+12. `git log`: Muestra el historial de commits con detalles como el autor, la fecha y el mensaje de cada commit.
+
+13. `git diff`: Muestra las diferencias entre el estado actual y el commit anterior.
+
+14. `git stash`: Guarda temporalmente los cambios no comprometidos en una pila y restablece el directorio de trabajo a la versión más reciente.
